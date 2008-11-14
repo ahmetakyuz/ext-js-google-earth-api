@@ -6,8 +6,9 @@
 ===findLocation(location)===
 Fly to location.
 
-Example:
+{{{
 earthPanel.findLocation('Oslo');
+}}}
 
 *getEarth()*
 Returns Google Earth instance
