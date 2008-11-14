@@ -43,3 +43,16 @@ Set Google Earth layers.
 
 ===setOptions(optionsObj)===
 Set Google Earth options.
+
+
+== Events ==
+
+===earthLoaded===
+
+Fired when Google Earth instance is ready.
+
+{{{
+earthPanel.on('earthLoaded', function(){
+  ...
+});
+}}}
