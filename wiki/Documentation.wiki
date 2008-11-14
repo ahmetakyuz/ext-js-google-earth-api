@@ -3,10 +3,27 @@
 
 == Functions ==
 
-*getEarth()*
+===findLocation(geocodeLocation)===
 
+Example:
+earthPanel.findLocation('Oslo');
+
+*getEarth()*
 Returns Google Earth instance
 
-*setLayers(layersObj)*
+*getLayersPanel()*
+Returns FormPanel with checkboxes for each Google Earth layer
 
-Define Google Earth layers
+*getLocationPanel()*
+Returns FormPanel for location search/fly to
+
+*getOptionsPanel()*
+Returns FormPanel with checkboxes for each Google Earth option
+
+*setLayers(layersObj)*
+Set Google Earth layers. 
+
+*setOptions(optionsObj)*
+Set Google Earth options
+
+
