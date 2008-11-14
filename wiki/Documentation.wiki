@@ -3,7 +3,7 @@
 
 == Functions ==
 
-===`findLocation(location)`===
+===findLocation(location)===
 Find/fly to location.
 
 {{{
@@ -18,16 +18,28 @@ var earthInstance = earthPanel.getEarth();
 }}}
 
 ===getLayersPanel()===
-Returns FormPanel with checkboxes for each Google Earth layer
+Returns FormPanel with checkboxes for each Google Earth layer.
+
+{{{
+var layersPanel = earthPanel.getLayersPanel();
+}}}
 
 ===getLocationPanel()===
-Returns FormPanel for location search/fly to
+Returns FormPanel for location search/fly to.
+
+{{{
+var locationPanel = earthPanel.getLocationPanel();
+}}}
 
 ===getOptionsPanel()===
-Returns FormPanel with checkboxes for each Google Earth option
+Returns FormPanel with checkboxes for each Google Earth option.
+
+{{{
+var optionsPanel = earthPanel.getOptionsPanel();
+}}}
 
 ===setLayers(layersObj)===
 Set Google Earth layers. 
 
 ===setOptions(optionsObj)===
-Set Google Earth options
+Set Google Earth options.
