@@ -11,7 +11,11 @@ earthPanel.findLocation('Oslo');
 }}}
 
 ===getEarth()===
-Returns Google Earth instance
+Returns Google Earth instance.
+
+{{{
+var earthInstance = earthPanel.getEarth();
+}}}
 
 ===getLayersPanel()===
 Returns FormPanel with checkboxes for each Google Earth layer
