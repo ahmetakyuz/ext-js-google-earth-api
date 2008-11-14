@@ -3,7 +3,7 @@
 
 == Functions ==
 
-===findLocation(location)===
+==='findLocation(location)'===
 Find/fly to location.
 
 {{{
