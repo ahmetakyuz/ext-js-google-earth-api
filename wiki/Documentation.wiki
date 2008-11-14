@@ -5,7 +5,7 @@
 == Functions ==
 
 ===fetchKml(kmlURL)===
-Load and display a KML file
+Load and display a KML file.
 
 ===findLocation(location)===
 Find/fly to location.
