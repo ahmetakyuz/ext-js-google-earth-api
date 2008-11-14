@@ -1,7 +1,11 @@
 = Introduction =
 
+----
 
 == Functions ==
+
+===fetchKml(kmlURL)===
+Load and display a KML file
 
 ===findLocation(location)===
 Find/fly to location.
@@ -44,12 +48,13 @@ Set Google Earth layers.
 ===setOptions(optionsObj)===
 Set Google Earth options.
 
+----
 
 == Events ==
 
 ===earthLoaded===
 
-Fired when Google Earth instance is ready.
+Fired when Google Earth panel and instance are ready.
 
 {{{
 earthPanel.on('earthLoaded', function(){
