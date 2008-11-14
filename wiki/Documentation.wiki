@@ -3,7 +3,8 @@
 
 == Functions ==
 
-===findLocation(geocodeLocation)===
+===findLocation(location)===
+Fly to location.
 
 Example:
 earthPanel.findLocation('Oslo');
@@ -25,5 +26,3 @@ Set Google Earth layers.
 
 *setOptions(optionsObj)*
 Set Google Earth options
-
-
