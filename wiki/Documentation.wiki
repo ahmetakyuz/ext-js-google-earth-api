@@ -4,9 +4,9 @@
 == Functions ==
 
 *getEarth()*
+
 Returns Google Earth instance
 
 *setLayers(layersObj)*
+
 Define Google Earth layers
-
-
