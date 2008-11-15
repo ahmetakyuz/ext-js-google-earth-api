@@ -1,3 +1,5 @@
+Result: http://thematicmapping.org/ext-js-google-earth-api/example.html
+
 {{{
 <html>
 <head>
