@@ -1,4 +1,7 @@
-= Introduction =
+== Installation ==
+
+# Download Ext JS 2.2: http://extjs.com/products/extjs/download.php
+# Download 
 
 ----
 
