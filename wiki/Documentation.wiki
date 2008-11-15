@@ -2,6 +2,7 @@
 
   # Download Ext JS 2.2: http://extjs.com/products/extjs/download.php
   # Download Ext.ux.GEarthPanel-1.1.zip: http://code.google.com/p/ext-js-google-earth-api/downloads/list
+  # See example.html: http://thematicmapping.org/ext-js-google-earth-api/example.html
 
 ----
 
@@ -9,6 +10,10 @@
 
 ===fetchKml(kmlURL)===
 Load and display a KML file.
+
+{{{
+earthPanel.fetchKml('http://earthatlas.info/kml/statistics/infant_mortality_rate_2005_prism.kmz');
+}}}
 
 ===findLocation(location)===
 Find/fly to location.
