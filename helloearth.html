@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Hello Earth!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="ext-2.2/resources/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="Ext.ux.GEarthPanel-1.1.css" />
+    <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAYwGscc9OpImHpqkm5HDgKhTXwLkI1bG8Oe8i_paCDbdXxh9aDxRUpvDtGbP8tL7LOaVD9t46VMeN1Q"></script>
+	<script type="text/javascript" src="ext-2.2/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="ext-2.2/ext-all.js"></script>
+  	<script type="text/javascript" src="Ext.ux.GEarthPanel-1.1.js"></script>
+    <script type="text/javascript">
+
+        google.load("earth", "1");
+        google.load("maps", "2.xx");
+
+        Ext.onReady(function(){
+
+            // Create Google Earth panel
+            var earthPanel = new Ext.ux.GEarthPanel({
+                title: 'Hello Earth!',
+                renderTo: 'myEarth',
+                width: 700,
+                height: 500,
+                earthLayers: {
+                    LAYER_BUILDINGS: true,
+                    LAYER_TERRAIN: true
+                },
+                earthOptions: {
+                    setStatusBarVisibility: true,
+                    setAtmosphereVisibility: true,
+                    setMouseNavigationEnabled: true
+                }
+            });
+
+            // Fly to Oslo
+            earthPanel.on('earthLoaded', function(){
+                earthPanel.findLocation('Oslo');
+            });
+
+        });
+
+    </script>
+
+</head>
+<body style="margin: 30px;">
+    <div id="myEarth"></div>
+</body>
+</html>
