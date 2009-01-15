@@ -1,6 +1,6 @@
 == Installation ==
 
-  # Download Ext.ux.GEarthPanel-1.1.1.zip: http://code.google.com/p/ext-js-google-earth-api/downloads/list
+  # Download and unzip Ext.ux.GEarthPanel-1.1.1.zip: http://code.google.com/p/ext-js-google-earth-api/downloads/list
   # Click on example.html
 
 ----
