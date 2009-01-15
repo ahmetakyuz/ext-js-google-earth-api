@@ -10,6 +10,7 @@
  *
  */
 
+
 .x-tree-node img.Folder, .x-tree-node-collapsed img.Folder{
     background: url("images/default/tree/closedfolder.png");
 }
